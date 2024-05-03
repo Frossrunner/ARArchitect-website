@@ -1,24 +1,23 @@
 .bottom{
     display: flex;
     flex-direction: row;
-    margin-left: 12%;
-    margin-right: 16%;
-    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    font-family: 'montserrat', sans-serif;
 }
 .bottom div.left{
-    width: 300px;
+    width: 500px;
 }
 .bottom div.middle{
     flex: 1;
 }
-
 .bottom div.left p{
-    font-family: sans-serif;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
 }
 .bottom div.left p span{
-    font-weight: normal;
+    font-weight: 600;
 }
 .bottom div.right {
     display: flex;
@@ -26,15 +25,14 @@
     align-items: flex-end; /* Align items to the right */
     width: 200px;
 }
-.bottom div.right li {
+.bottom div.left li {
     list-style: none; /* Remove default list styles */
     text-align: right;
     font-size: 60px;
 }
-.bottom div.right i{
+.bottom div.left i{
     color: black;
 }
-
 .tooltip {
     position: relative;
     display: inline-block;
@@ -55,7 +53,6 @@
     opacity: 0;
     transition: opacity 0.3s;
     font-size: 15px;
-    font-family: sans-serif;
 }
 
 .tooltip:hover .tooltiptext {
