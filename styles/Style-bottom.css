@@ -25,12 +25,12 @@
     align-items: flex-end; /* Align items to the right */
     width: 200px;
 }
-.bottom div.left li {
+.bottom div.right li {
     list-style: none; /* Remove default list styles */
     text-align: right;
     font-size: 60px;
 }
-.bottom div.left i{
+.bottom div.right i{
     color: black;
 }
 .tooltip {
