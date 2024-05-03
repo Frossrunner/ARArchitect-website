@@ -1,56 +1,60 @@
 .navbar{
     display:flex;
     flex-direction: row;
-    font-family: sans-serif;
-    margin: 2% 7% 5% 12%;
+    font-family: 'montserrat', sans-serif;
+    margin: 2% 5% 5% 3%;
 }
 .navbar div.left{
     width: 200px;
 }
-.navbar div.middle{
+.navbar div.right{
     flex: 1;
 }
-.navbar div.right{
-    width: 800px;
+.navbar div.middle{
+    width: 1000px;
     margin-top:2%;
+    margin-left:15%;
 }
 .ARA{
     font-size: 80px;
-    font-weight: lighter;
+    font-weight: 300;
     margin: 0;
 }
 .subheading{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 400;
     margin: 0;
 }
-.navbar div.right ul{
+.navbar div.middle ul{
     list-style: none;
-    width: 700px;
-    margin-right: 100px;
     padding: 0;
 }
-.navbar div.right ul li{
+.navbar div.middle ul li{
     float: right;
-    margin-right: 5%;
-    padding-left: 7px;
     border-left: 2px solid black;
     transition-duration: 0.3s;
+    margin-left: 10%;
+    padding-left: 7px;
 }
-.navbar div.right ul li:hover{
+.navbar div.middle ul li:hover{
     transform: scale(1.1);
     padding-left: 5px;
     border-left: 4px solid black;
 }
-.navbar div.right ul li.selected{
+.navbar div.middle ul li.selected{
     border-left: 4px solid black;
     padding-left: 5px;
 }
-.navbar div.right ul li a{
+.navbar div.middle ul li a{
     text-decoration: none;
     font-size: 20px;
     color: black;
 }
+
+
+
+
+
 
 
 
