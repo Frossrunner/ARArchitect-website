@@ -1,9 +1,9 @@
 .pictures{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 2%;
-    margin-left: 12%;
-    margin-right: 16%;
+    column-gap: 0.5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .long-pic{
     width: 100%;
@@ -11,7 +11,7 @@
 .pic-23{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    row-gap: 2%;
+    row-gap: 0.5%;
 }
 .short-pic{
     width: 100%;
